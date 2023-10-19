@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootKafkaRealtimeDataApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SpringBootKafkaRealtimeDataApplication.class, args);
 	}
 
