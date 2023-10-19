@@ -23,7 +23,7 @@ public class kafkaDatabaseConsumer {
         LOGGER.info(String.format("Event Message -> %s",eventMessage));
 
         WikimediaData wikimediaData=new WikimediaData();
-        wikimediaData.setWikiEventData(eventMessage);
+        wikimediaData.setWikiEventData("EVENT MESSAGE");
         wikimediaDataRepository.save(wikimediaData);
 
     }
